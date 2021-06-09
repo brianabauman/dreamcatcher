@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490E6697223B5B1900134370 /* FilterDreamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E6696223B5B1900134370 /* FilterDreamsViewController.swift */; };
+		490E6699223B5F6000134370 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E6698223B5F6000134370 /* Settings.swift */; };
+		4914B90C2239CFAE00DCEE9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B90B2239CFAE00DCEE9F /* AppDelegate.swift */; };
+		4914B90E2239CFAE00DCEE9F /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B90D2239CFAE00DCEE9F /* AlarmViewController.swift */; };
+		4914B9112239CFAE00DCEE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4914B90F2239CFAE00DCEE9F /* Main.storyboard */; };
+		4914B9132239CFAF00DCEE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4914B9122239CFAF00DCEE9F /* Assets.xcassets */; };
+		4914B9162239CFAF00DCEE9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4914B9142239CFAF00DCEE9F /* LaunchScreen.storyboard */; };
+		4914B9212239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B9202239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherTests.swift */; };
+		4914B92C2239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B92B2239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherUITests.swift */; };
+		4914B93A223AC5CC00DCEE9F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B939223AC5CC00DCEE9F /* SettingsViewController.swift */; };
+		4914B93C223B03F300DCEE9F /* AddDreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B93B223B03F300DCEE9F /* AddDreamViewController.swift */; };
+		4914B93E223B072700DCEE9F /* DreamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B93D223B072700DCEE9F /* DreamsTableViewController.swift */; };
+		4914B940223B075700DCEE9F /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B93F223B075700DCEE9F /* Dream.swift */; };
+		4934BCD3223F3D9600835AD1 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934BCD2223F3D9600835AD1 /* alarm.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4914B91D2239CFAF00DCEE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4914B9002239CFAE00DCEE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4914B9072239CFAE00DCEE9F;
+			remoteInfo = "Bauman, Brian Dreamcatcher";
+		};
+		4914B9282239CFAF00DCEE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4914B9002239CFAE00DCEE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4914B9072239CFAE00DCEE9F;
+			remoteInfo = "Bauman, Brian Dreamcatcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490E6696223B5B1900134370 /* FilterDreamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDreamsViewController.swift; sourceTree = "<group>"; };
+		490E6698223B5F6000134370 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		4914B9082239CFAE00DCEE9F /* Bauman, Brian Dreamcatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bauman, Brian Dreamcatcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914B90B2239CFAE00DCEE9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4914B90D2239CFAE00DCEE9F /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		4914B9102239CFAE00DCEE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4914B9122239CFAF00DCEE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4914B9152239CFAF00DCEE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4914B9172239CFAF00DCEE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4914B91C2239CFAF00DCEE9F /* Bauman, Brian DreamcatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bauman, Brian DreamcatcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914B9202239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bauman__Brian_DreamcatcherTests.swift; sourceTree = "<group>"; };
+		4914B9222239CFAF00DCEE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4914B9272239CFAF00DCEE9F /* Bauman, Brian DreamcatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bauman, Brian DreamcatcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914B92B2239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bauman__Brian_DreamcatcherUITests.swift; sourceTree = "<group>"; };
+		4914B92D2239CFAF00DCEE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4914B939223AC5CC00DCEE9F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4914B93B223B03F300DCEE9F /* AddDreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDreamViewController.swift; sourceTree = "<group>"; };
+		4914B93D223B072700DCEE9F /* DreamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamsTableViewController.swift; sourceTree = "<group>"; };
+		4914B93F223B075700DCEE9F /* Dream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = "<group>"; };
+		4934BCD2223F3D9600835AD1 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm.mp3; path = ../../../../../../Downloads/alarm.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4914B9052239CFAE00DCEE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B9192239CFAF00DCEE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B9242239CFAF00DCEE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4914B8FF2239CFAE00DCEE9F = {
+			isa = PBXGroup;
+			children = (
+				4914B90A2239CFAE00DCEE9F /* Bauman, Brian Dreamcatcher */,
+				4914B91F2239CFAF00DCEE9F /* Bauman, Brian DreamcatcherTests */,
+				4914B92A2239CFAF00DCEE9F /* Bauman, Brian DreamcatcherUITests */,
+				4914B9092239CFAE00DCEE9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4914B9092239CFAE00DCEE9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4914B9082239CFAE00DCEE9F /* Bauman, Brian Dreamcatcher.app */,
+				4914B91C2239CFAF00DCEE9F /* Bauman, Brian DreamcatcherTests.xctest */,
+				4914B9272239CFAF00DCEE9F /* Bauman, Brian DreamcatcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4914B90A2239CFAE00DCEE9F /* Bauman, Brian Dreamcatcher */ = {
+			isa = PBXGroup;
+			children = (
+				4934BCD2223F3D9600835AD1 /* alarm.mp3 */,
+				4914B90F2239CFAE00DCEE9F /* Main.storyboard */,
+				4914B93B223B03F300DCEE9F /* AddDreamViewController.swift */,
+				4914B90D2239CFAE00DCEE9F /* AlarmViewController.swift */,
+				4914B90B2239CFAE00DCEE9F /* AppDelegate.swift */,
+				4914B93F223B075700DCEE9F /* Dream.swift */,
+				4914B93D223B072700DCEE9F /* DreamsTableViewController.swift */,
+				490E6696223B5B1900134370 /* FilterDreamsViewController.swift */,
+				4914B939223AC5CC00DCEE9F /* SettingsViewController.swift */,
+				490E6698223B5F6000134370 /* Settings.swift */,
+				4914B9122239CFAF00DCEE9F /* Assets.xcassets */,
+				4914B9142239CFAF00DCEE9F /* LaunchScreen.storyboard */,
+				4914B9172239CFAF00DCEE9F /* Info.plist */,
+			);
+			path = "Bauman, Brian Dreamcatcher";
+			sourceTree = "<group>";
+		};
+		4914B91F2239CFAF00DCEE9F /* Bauman, Brian DreamcatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				4914B9202239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherTests.swift */,
+				4914B9222239CFAF00DCEE9F /* Info.plist */,
+			);
+			path = "Bauman, Brian DreamcatcherTests";
+			sourceTree = "<group>";
+		};
+		4914B92A2239CFAF00DCEE9F /* Bauman, Brian DreamcatcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4914B92B2239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherUITests.swift */,
+				4914B92D2239CFAF00DCEE9F /* Info.plist */,
+			);
+			path = "Bauman, Brian DreamcatcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4914B9072239CFAE00DCEE9F /* Bauman, Brian Dreamcatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4914B9302239CFAF00DCEE9F /* Build configuration list for PBXNativeTarget "Bauman, Brian Dreamcatcher" */;
+			buildPhases = (
+				4914B9042239CFAE00DCEE9F /* Sources */,
+				4914B9052239CFAE00DCEE9F /* Frameworks */,
+				4914B9062239CFAE00DCEE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bauman, Brian Dreamcatcher";
+			productName = "Bauman, Brian Dreamcatcher";
+			productReference = 4914B9082239CFAE00DCEE9F /* Bauman, Brian Dreamcatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4914B91B2239CFAF00DCEE9F /* Bauman, Brian DreamcatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4914B9332239CFAF00DCEE9F /* Build configuration list for PBXNativeTarget "Bauman, Brian DreamcatcherTests" */;
+			buildPhases = (
+				4914B9182239CFAF00DCEE9F /* Sources */,
+				4914B9192239CFAF00DCEE9F /* Frameworks */,
+				4914B91A2239CFAF00DCEE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4914B91E2239CFAF00DCEE9F /* PBXTargetDependency */,
+			);
+			name = "Bauman, Brian DreamcatcherTests";
+			productName = "Bauman, Brian DreamcatcherTests";
+			productReference = 4914B91C2239CFAF00DCEE9F /* Bauman, Brian DreamcatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4914B9262239CFAF00DCEE9F /* Bauman, Brian DreamcatcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4914B9362239CFAF00DCEE9F /* Build configuration list for PBXNativeTarget "Bauman, Brian DreamcatcherUITests" */;
+			buildPhases = (
+				4914B9232239CFAF00DCEE9F /* Sources */,
+				4914B9242239CFAF00DCEE9F /* Frameworks */,
+				4914B9252239CFAF00DCEE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4914B9292239CFAF00DCEE9F /* PBXTargetDependency */,
+			);
+			name = "Bauman, Brian DreamcatcherUITests";
+			productName = "Bauman, Brian DreamcatcherUITests";
+			productReference = 4914B9272239CFAF00DCEE9F /* Bauman, Brian DreamcatcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4914B9002239CFAE00DCEE9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Brian Bauman";
+				TargetAttributes = {
+					4914B9072239CFAE00DCEE9F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4914B91B2239CFAF00DCEE9F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4914B9072239CFAE00DCEE9F;
+					};
+					4914B9262239CFAF00DCEE9F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4914B9072239CFAE00DCEE9F;
+					};
+				};
+			};
+			buildConfigurationList = 4914B9032239CFAE00DCEE9F /* Build configuration list for PBXProject "Bauman, Brian Dreamcatcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4914B8FF2239CFAE00DCEE9F;
+			productRefGroup = 4914B9092239CFAE00DCEE9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4914B9072239CFAE00DCEE9F /* Bauman, Brian Dreamcatcher */,
+				4914B91B2239CFAF00DCEE9F /* Bauman, Brian DreamcatcherTests */,
+				4914B9262239CFAF00DCEE9F /* Bauman, Brian DreamcatcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4914B9062239CFAE00DCEE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4934BCD3223F3D9600835AD1 /* alarm.mp3 in Resources */,
+				4914B9162239CFAF00DCEE9F /* LaunchScreen.storyboard in Resources */,
+				4914B9132239CFAF00DCEE9F /* Assets.xcassets in Resources */,
+				4914B9112239CFAE00DCEE9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B91A2239CFAF00DCEE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B9252239CFAF00DCEE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4914B9042239CFAE00DCEE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4914B93C223B03F300DCEE9F /* AddDreamViewController.swift in Sources */,
+				4914B90E2239CFAE00DCEE9F /* AlarmViewController.swift in Sources */,
+				490E6699223B5F6000134370 /* Settings.swift in Sources */,
+				4914B93E223B072700DCEE9F /* DreamsTableViewController.swift in Sources */,
+				4914B90C2239CFAE00DCEE9F /* AppDelegate.swift in Sources */,
+				4914B93A223AC5CC00DCEE9F /* SettingsViewController.swift in Sources */,
+				4914B940223B075700DCEE9F /* Dream.swift in Sources */,
+				490E6697223B5B1900134370 /* FilterDreamsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B9182239CFAF00DCEE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4914B9212239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B9232239CFAF00DCEE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4914B92C2239CFAF00DCEE9F /* Bauman__Brian_DreamcatcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4914B91E2239CFAF00DCEE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4914B9072239CFAE00DCEE9F /* Bauman, Brian Dreamcatcher */;
+			targetProxy = 4914B91D2239CFAF00DCEE9F /* PBXContainerItemProxy */;
+		};
+		4914B9292239CFAF00DCEE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4914B9072239CFAE00DCEE9F /* Bauman, Brian Dreamcatcher */;
+			targetProxy = 4914B9282239CFAF00DCEE9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4914B90F2239CFAE00DCEE9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4914B9102239CFAE00DCEE9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4914B9142239CFAF00DCEE9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4914B9152239CFAF00DCEE9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4914B92E2239CFAF00DCEE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4914B92F2239CFAF00DCEE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4914B9312239CFAF00DCEE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25F96T3VSG;
+				INFOPLIST_FILE = "Bauman, Brian Dreamcatcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Bauman--Brian-Dreamcatcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4914B9322239CFAF00DCEE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25F96T3VSG;
+				INFOPLIST_FILE = "Bauman, Brian Dreamcatcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Bauman--Brian-Dreamcatcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4914B9342239CFAF00DCEE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bauman, Brian DreamcatcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Bauman--Brian-DreamcatcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bauman, Brian Dreamcatcher.app/Bauman, Brian Dreamcatcher";
+			};
+			name = Debug;
+		};
+		4914B9352239CFAF00DCEE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bauman, Brian DreamcatcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Bauman--Brian-DreamcatcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bauman, Brian Dreamcatcher.app/Bauman, Brian Dreamcatcher";
+			};
+			name = Release;
+		};
+		4914B9372239CFAF00DCEE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bauman, Brian DreamcatcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Bauman--Brian-DreamcatcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bauman, Brian Dreamcatcher";
+			};
+			name = Debug;
+		};
+		4914B9382239CFAF00DCEE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bauman, Brian DreamcatcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Bauman--Brian-DreamcatcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bauman, Brian Dreamcatcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4914B9032239CFAE00DCEE9F /* Build configuration list for PBXProject "Bauman, Brian Dreamcatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4914B92E2239CFAF00DCEE9F /* Debug */,
+				4914B92F2239CFAF00DCEE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4914B9302239CFAF00DCEE9F /* Build configuration list for PBXNativeTarget "Bauman, Brian Dreamcatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4914B9312239CFAF00DCEE9F /* Debug */,
+				4914B9322239CFAF00DCEE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4914B9332239CFAF00DCEE9F /* Build configuration list for PBXNativeTarget "Bauman, Brian DreamcatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4914B9342239CFAF00DCEE9F /* Debug */,
+				4914B9352239CFAF00DCEE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4914B9362239CFAF00DCEE9F /* Build configuration list for PBXNativeTarget "Bauman, Brian DreamcatcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4914B9372239CFAF00DCEE9F /* Debug */,
+				4914B9382239CFAF00DCEE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4914B9002239CFAE00DCEE9F /* Project object */;
+}
